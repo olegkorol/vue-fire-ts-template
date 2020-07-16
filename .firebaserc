@@ -1,0 +1,23 @@
+{
+  "projects": {
+    "default": "vue-fire-ts-template",
+    "dev": "vue-fire-ts-template",
+    "prod": "vue-fire-ts-template"
+  },
+  "targets": {
+    "vue-fire-ts-template-dev": { 
+      "hosting": {
+        "app": [
+          "vue-fire-ts-template-dev"
+        ]
+      }
+    },
+    "vue-fire-ts-template-prod": {
+      "hosting": {
+        "app": [
+          "vue-fire-ts-template-prod"
+        ]
+      }
+    }
+  }
+}

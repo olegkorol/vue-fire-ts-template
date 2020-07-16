@@ -1,0 +1,18 @@
+{
+  "cloudFunctions": {
+    "baseUrl": {
+      "dev": "https://<REGION>-<PROJECT_ID>.cloudfunctions.net",
+      "prod": "https://<REGION>-<PROJECT_ID>.cloudfunctions.net"
+    },
+    "endpoints": {
+      "myEndpoint": "myEndpoint"
+    },
+    "queryParams": {
+      "token": "token"
+    },
+    "authToken": {
+      "dev": "<SOME_TOKEN>",
+      "prod": "<SOME_TOKEN>"
+    }
+  }
+}
